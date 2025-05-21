@@ -26,14 +26,14 @@
         <developer>
             <id>jakepalanca</id>
             <name>Jake Palanca</name>
-            <email>jakepalanca@protonmail.com</email>
+            <email>contact@jakepalanca.com</email>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/jakepalanca/png-to-vect-converter.git</connection>
-        <developerConnection>scm:git:git@github.com:jakepalanca/png-to-vect-converter.git</developerConnection>
-        <url>https://github.com/jakepalanca/png-to-vect-converter</url>
+        <connection>scm:git:https://github.com/jakepalanca/PngToVectConverter.git</connection>
+        <developerConnection>scm:git:git@github.com:jakepalanca/PngToVectConverter.git</developerConnection>
+        <url>https://github.com/jakepalanca/PngToVectConverterr</url>
     </scm>
 
     <properties>
