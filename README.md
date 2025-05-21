@@ -114,9 +114,9 @@ graph TD
     E --> G[(Clean PNG Output)]
     F --> H[(Vector SVG Output)]
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style G fill:#ccf,stroke:#333,stroke-width:2px
-    style H fill:#ccf,stroke:#333,stroke-width:2px
+    style A fill:#336699,stroke:#333,stroke-width:2px,color:#fff
+    style G fill:#2D8659,stroke:#333,stroke-width:2px,color:#fff
+    style H fill:#2D8659,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ---
