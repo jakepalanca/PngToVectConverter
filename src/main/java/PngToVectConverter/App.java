@@ -1,15 +1,15 @@
-package jakepalanca.image_pixelator;
+package PngToVectConverter;
 
-import jakepalanca.image_pixelator.internal.Pixelator;
+import PngToVectConverter.internal.Pixelator;
 
 import java.io.IOException;
 import java.nio.file.Paths;
 
 /**
- * Entry point for the Image Pixelator application.
+ * Entry point for the PNG to Vector Converter application.
  * <p>
  * This class initializes the {@link Pixelator} with user-defined parameters
- * and triggers the image pixelation process.
+ * and triggers the image conversion process.
  */
 public class App {
 

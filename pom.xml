@@ -6,13 +6,13 @@
 
     <!-- Coordinates for Maven Central -->
     <groupId>io.github.jakepalanca</groupId>
-    <artifactId>image-pixelator</artifactId>
+    <artifactId>png-to-vect-converter</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Image Pixelator</name>
-    <description>Java library for extracting, trimming, scaling and vectorizing pixel‑art sprites.</description>
-    <url>https://github.com/jakepalanca/image-pixelator</url>
+    <name>PNG to Vector Converter</name>
+    <description>Java library for extracting, trimming, scaling and vectorizing pixel-art from PNG files.</description>
+    <url>https://github.com/jakepalanca/png-to-vect-converter</url>
 
     <licenses>
         <license>
@@ -31,9 +31,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/jakepalanca/image-pixelator.git</connection>
-        <developerConnection>scm:git:git@github.com:jakepalanca/image-pixelator.git</developerConnection>
-        <url>https://github.com/jakepalanca/image-pixelator</url>
+        <connection>scm:git:https://github.com/jakepalanca/png-to-vect-converter.git</connection>
+        <developerConnection>scm:git:git@github.com:jakepalanca/png-to-vect-converter.git</developerConnection>
+        <url>https://github.com/jakepalanca/png-to-vect-converter</url>
     </scm>
 
     <properties>

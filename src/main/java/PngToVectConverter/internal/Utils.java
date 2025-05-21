@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.bytedeco.javacpp.BytePointer;
 import org.bytedeco.opencv.opencv_core.Mat;

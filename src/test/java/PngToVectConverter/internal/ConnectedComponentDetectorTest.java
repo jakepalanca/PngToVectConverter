@@ -1,11 +1,10 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.junit.jupiter.api.Test;
 
 import java.awt.image.BufferedImage;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Unit tests for the {@link ConnectedComponentDetector} class.

@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

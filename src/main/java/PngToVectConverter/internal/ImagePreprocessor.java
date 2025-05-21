@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.bytedeco.javacpp.indexer.IntIndexer;
 import org.bytedeco.javacpp.indexer.UByteIndexer;
@@ -43,7 +43,7 @@ class ImagePreprocessor {
         int height = original.getHeight();
         BufferedImage result = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 
-        // Use the top-left corner pixel as the “background” color
+        // Use the top-left corner pixel as the "background" color
         int bgARGB = original.getRGB(0, 0);
         int bgRGB = bgARGB & 0x00FFFFFF;  // ignore alpha channel
 

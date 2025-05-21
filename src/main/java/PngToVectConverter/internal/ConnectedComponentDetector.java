@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.opencv.core.Point;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

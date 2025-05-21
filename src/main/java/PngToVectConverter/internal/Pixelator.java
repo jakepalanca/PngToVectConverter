@@ -1,13 +1,13 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Set;
 
 /**
- * Facade for the image pixelation pipeline.
+ * Facade for the PNG to vector conversion pipeline.
  * <p>
- * Provides a builder-style API for configuring and executing the pixelation process.
+ * Provides a builder-style API for configuring and executing the conversion process.
  */
 public final class Pixelator {
     private final PixelatorConfig config;
@@ -15,7 +15,7 @@ public final class Pixelator {
     /**
      * Private constructor for internal use with a given configuration.
      *
-     * @param cfg The configuration for pixelation.
+     * @param cfg The configuration for conversion.
      */
     private Pixelator(PixelatorConfig cfg) {
         this.config = cfg;
@@ -77,7 +77,7 @@ public final class Pixelator {
     }
 
     /**
-     * Sets how many top sprites (distinct patterns) to keep during pixelation.
+     * Sets how many top sprites (distinct patterns) to keep during conversion.
      *
      * @param n Number of top sprites.
      * @return This {@code Pixelator} instance for chaining.
@@ -88,7 +88,7 @@ public final class Pixelator {
     }
 
     /**
-     * Sets the output formats for the pixelated image (e.g., "png", "svg").
+     * Sets the output formats for the converted image (e.g., "png", "svg").
      *
      * @param fmts Output format strings.
      * @return This {@code Pixelator} instance for chaining.
@@ -99,7 +99,7 @@ public final class Pixelator {
     }
 
     /**
-     * Executes the image pixelation process with the current configuration.
+     * Executes the image conversion process with the current configuration.
      *
      * @param in  Input image path.
      * @param out Output directory path.

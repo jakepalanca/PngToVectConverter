@@ -1,13 +1,13 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import java.util.Set;
 
 /**
- * Configuration object for the Pixelator processing pipeline.
+ * Configuration object for the PNG to Vector Converter processing pipeline.
  * <p>
  * This class holds various parameters that control the image processing workflow,
  * such as preprocessing thresholds, sprite extraction settings, output formats,
- * and S3 storage details. It allows fine-tuning of the pixelation process.
+ * and S3 storage details. It allows fine-tuning of the conversion process.
  */
 public class PixelatorConfig {
 

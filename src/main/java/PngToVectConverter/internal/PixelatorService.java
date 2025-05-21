@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

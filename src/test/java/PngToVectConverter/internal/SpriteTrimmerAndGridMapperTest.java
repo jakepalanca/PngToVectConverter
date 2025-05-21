@@ -1,4 +1,4 @@
-package jakepalanca.image_pixelator.internal;
+package PngToVectConverter.internal;
 
 import org.junit.jupiter.api.Test;
 
@@ -30,7 +30,7 @@ public class SpriteTrimmerAndGridMapperTest {
      * In this test:
      * <ul>
      *   <li>A sprite is created by adding red pixels in a 100×100 block within a 1024×1024 coordinate system (from (400,400) to (499,499)).</li>
-     *   <li>The sprite’s bounding box is expected to be 100×100.</li>
+     *   <li>The sprite's bounding box is expected to be 100×100.</li>
      *   <li>After processing via {@code trimAndScaleSprite} to a target of 64×64, the output should be a 64×64 red image.</li>
      *   <li>The test then generates an expected 64×64 red image and compares the two images pixel by pixel.</li>
      *   <li>Additional assertions verify that the computed center-of-mass is near the geometric center.</li>
