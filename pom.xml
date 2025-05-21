@@ -7,7 +7,7 @@
     <!-- Coordinates for Maven Central -->
     <groupId>io.github.jakepalanca</groupId>
     <artifactId>png-to-vect-converter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>PNG to Vector Converter</name>

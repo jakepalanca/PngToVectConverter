@@ -110,8 +110,8 @@ graph TD
     B --> C[ConnectedComponentDetector: Find Pixel Blobs]
     C --> D{SpriteExtractor: Select Top N, Optional Merge}
     D --> E[SpriteTrimmer: Crop, Scale, Center, Trim Edges]
-    D --> F[SpriteVectorizer: Pixel-to-SVG Rect]
     E --> G[(Clean PNG Output)]
+    E --> F[SpriteVectorizer: Pixel-to-SVG Rect]
     F --> H[(Vector SVG Output)]
 
     style A fill:#336699,stroke:#333,stroke-width:2px,color:#fff
